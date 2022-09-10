@@ -1,0 +1,182 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+.container{
+	width: 1320px;
+	margin: 0 auto;
+}
+.clr{
+	clear: both;
+}
+ul,ol{
+	list-style: none;
+}
+/*==================================
+		Header part start
+====================================*/
+header{
+	color: #fff;
+	background:#0f2f44;
+	padding: 15px 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+
+}
+header .header_left{
+	width: 50%;
+	float: left;
+
+}
+header .header_right{
+	width: 50%;
+	float: left;
+	text-align: right;
+	
+}
+
+/*==================================
+		Header part end
+====================================*/
+
+/*==================================
+		nav part start
+====================================*/
+	nav{
+		padding: 40px 0px;
+	}
+	nav .nav_logo{
+		width:15%;
+		float: left;
+	}
+	nav .manu{
+		width:75%;
+		float: left;
+	}
+	nav .icon{
+		width:10%;
+		float: left;
+	}
+	nav .manu ul{
+		text-align: center;
+		margin-top: 10px;
+	}
+	nav .manu ul li{
+	display: inline-block;
+	margin-right:25px;
+
+	}	
+	nav .manu ul li a{
+		color: black;
+		text-decoration: none;
+		font-family: 'Open Sans', sans-serif;
+		padding: 20px 10px;
+		transition: .4s;
+	}
+	nav .manu ul li a:hover{
+		color: #ffc712;
+    	background: #fff9e6;
+	}
+	nav .icon i{
+		border: 1px solid #999999;
+		height: 30px;
+		width: 30px;
+		border-radius: 50%;
+		text-align: center;
+		line-height: 30px;
+		color: #999999;
+		margin: 0px 10px;
+		transition: .4s;
+	}
+	nav .icon i:hover{
+		background: #0f2f44;
+		color: #affc712;
+		cursor: pointer;
+	}
+
+/*==================================
+		nav part end
+====================================*/
+
+/*==================================
+		banner part start
+====================================*/
+
+
+	#banner_part{
+		background-image:url(banner.png);
+		height:430px;
+		background-repeat: no-repeat;
+		background-size:cover;
+		background-position: center;
+	}
+	
+	#banner_part h3{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 50px;
+		font-weight: 300;
+
+	}
+	#banner_part h1{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 50px;
+		font-weight: 300;
+		color: #0f2f44;
+		font-family: 'Abril Fatface', cursive;
+
+	}
+	#banner_part h4{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 32px;
+		font-weight: 500;
+		color: #aab0d8;
+		letter-spacing: 14px;
+
+	}
+	#banner_part a{
+		background: #8484bf;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+		font-weight: 300;
+		text-decoration: none;
+		padding: 7px;
+		display: inline-block;
+		border: 1px solid #999999;
+		border-radius: 7px;
+		text-align: center;
+		color: #0f2f44;
+	}
+	#banner_part a:hover{
+		background: white;
+		transition: .4s;
+	}
+	#banner_part p{
+		line-height: 24px;
+		font-size: 20px;
+		margin-top: 8px;
+	}
+	#banner_part i{
+		border: 1px solid #999999;
+		height: 35px;
+		width: 35px;
+		border-radius: 50%;
+		text-align: center;
+		line-height: 35px;
+		color: #999999;
+		margin: 0px 25px;
+		transition: .4s;
+		margin-top: 25px;
+		margin-left: 10px;
+		background: #fff;
+	}
+	#banner_part i:hover{
+		background: #8484bf;
+		color: #000000;
+		cursor: pointer;
+		transition: .4s;
+	}
+/*==================================
+		banner part start
+====================================*/
